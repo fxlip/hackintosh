@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C4B238A14598AD20080D960 /* AppleSmartBatteryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C4B238914598AD20080D960 /* AppleSmartBatteryManager.h */; };
+		0C4B238C14598AD20080D960 /* AppleSmartBatteryManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C4B238B14598AD20080D960 /* AppleSmartBatteryManager.cpp */; };
+		0C4B240714598CD00080D960 /* AppleSmartBattery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C4B240514598CD00080D960 /* AppleSmartBattery.cpp */; };
+		0C4B240814598CD00080D960 /* AppleSmartBattery.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C4B240614598CD00080D960 /* AppleSmartBattery.h */; };
+		84440B911838131700779871 /* ACAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84440B901838131700779871 /* ACAdapter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C4B237E14598AD20080D960 /* ACPIBatteryManager.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACPIBatteryManager.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C4B238214598AD20080D960 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		0C4B238514598AD20080D960 /* ACPIBatteryManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACPIBatteryManager-Info.plist"; sourceTree = "<group>"; };
+		0C4B238714598AD20080D960 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C4B238914598AD20080D960 /* AppleSmartBatteryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleSmartBatteryManager.h; sourceTree = "<group>"; };
+		0C4B238B14598AD20080D960 /* AppleSmartBatteryManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = AppleSmartBatteryManager.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		0C4B238D14598AD20080D960 /* ACPIBatteryManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACPIBatteryManager-Prefix.pch"; sourceTree = "<group>"; };
+		0C4B240514598CD00080D960 /* AppleSmartBattery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleSmartBattery.cpp; sourceTree = "<group>"; };
+		0C4B240614598CD00080D960 /* AppleSmartBattery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleSmartBattery.h; sourceTree = "<group>"; };
+		84440B8F183811A400779871 /* ACAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACAdapter.h; sourceTree = "<group>"; };
+		84440B901838131700779871 /* ACAdapter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = ACAdapter.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		844778D216E7FC2400B27895 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = SOURCE_ROOT; usesTabs = 1; };
+		84D49F6818381F260009CA74 /* IOPMPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOPMPrivate.h; sourceTree = "<group>"; };
+		ED6DFB381CC677BD00FF57A6 /* SSDT-ACPIBATT.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-ACPIBATT.dsl"; sourceTree = SOURCE_ROOT; };
+		ED7BCA381CFE648400D36255 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EDA40AAC1CFDE4BE00491402 /* SSDT-BATC.dsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SSDT-BATC.dsl"; sourceTree = SOURCE_ROOT; };
+		EDE11A921BADE60A009023F7 /* config_override.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = config_override.txt; path = ../config_override.txt; sourceTree = "<group>"; };
+		EDE11A951BADE84F009023F7 /* PatchCoconut.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = PatchCoconut.sh; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C4B237914598AD20080D960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C4B237114598AD10080D960 = {
+			isa = PBXGroup;
+			children = (
+				ED7BCA381CFE648400D36255 /* README.md */,
+				0C4B238314598AD20080D960 /* AppleSmartBatteryManager */,
+				0C4B238014598AD20080D960 /* Frameworks */,
+				0C4B237F14598AD20080D960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C4B237F14598AD20080D960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C4B237E14598AD20080D960 /* ACPIBatteryManager.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C4B238014598AD20080D960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C4B238114598AD20080D960 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C4B238114598AD20080D960 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C4B238214598AD20080D960 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0C4B238314598AD20080D960 /* AppleSmartBatteryManager */ = {
+			isa = PBXGroup;
+			children = (
+				844778D216E7FC2400B27895 /* makefile */,
+				EDE11A941BADE828009023F7 /* Patches */,
+				84440B8F183811A400779871 /* ACAdapter.h */,
+				84440B901838131700779871 /* ACAdapter.cpp */,
+				0C4B240614598CD00080D960 /* AppleSmartBattery.h */,
+				0C4B240514598CD00080D960 /* AppleSmartBattery.cpp */,
+				0C4B238914598AD20080D960 /* AppleSmartBatteryManager.h */,
+				0C4B238B14598AD20080D960 /* AppleSmartBatteryManager.cpp */,
+				0C4B238414598AD20080D960 /* Supporting Files */,
+			);
+			path = AppleSmartBatteryManager;
+			sourceTree = "<group>";
+		};
+		0C4B238414598AD20080D960 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C4B238514598AD20080D960 /* ACPIBatteryManager-Info.plist */,
+				0C4B238614598AD20080D960 /* InfoPlist.strings */,
+				0C4B238D14598AD20080D960 /* ACPIBatteryManager-Prefix.pch */,
+				84D49F6818381F260009CA74 /* IOPMPrivate.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDE11A941BADE828009023F7 /* Patches */ = {
+			isa = PBXGroup;
+			children = (
+				EDA40AAC1CFDE4BE00491402 /* SSDT-BATC.dsl */,
+				ED6DFB381CC677BD00FF57A6 /* SSDT-ACPIBATT.dsl */,
+				EDE11A921BADE60A009023F7 /* config_override.txt */,
+				EDE11A951BADE84F009023F7 /* PatchCoconut.sh */,
+			);
+			name = Patches;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C4B237A14598AD20080D960 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C4B238A14598AD20080D960 /* AppleSmartBatteryManager.h in Headers */,
+				0C4B240814598CD00080D960 /* AppleSmartBattery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C4B237D14598AD20080D960 /* ACPIBatteryManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C4B239014598AD20080D960 /* Build configuration list for PBXNativeTarget "ACPIBatteryManager" */;
+			buildPhases = (
+				0C4B237814598AD20080D960 /* Sources */,
+				0C4B237914598AD20080D960 /* Frameworks */,
+				0C4B237A14598AD20080D960 /* Headers */,
+				0C4B237B14598AD20080D960 /* Resources */,
+				0C4B237C14598AD20080D960 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACPIBatteryManager;
+			productName = AppleSmartBatteryManager;
+			productReference = 0C4B237E14598AD20080D960 /* ACPIBatteryManager.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C4B237314598AD10080D960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 0C4B237614598AD10080D960 /* Build configuration list for PBXProject "ACPIBatteryManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C4B237114598AD10080D960;
+			productRefGroup = 0C4B237F14598AD20080D960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C4B237D14598AD20080D960 /* ACPIBatteryManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C4B237B14598AD20080D960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		0C4B237C14598AD20080D960 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C4B237814598AD20080D960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C4B238C14598AD20080D960 /* AppleSmartBatteryManager.cpp in Sources */,
+				0C4B240714598CD00080D960 /* AppleSmartBattery.cpp in Sources */,
+				84440B911838131700779871 /* ACAdapter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C4B238614598AD20080D960 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C4B238714598AD20080D960 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C4B238E14598AD20080D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"DEBUG_MSG=1",
+					"LOGNAME=\\\"${LOGNAME}\\\"",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LLVM_LTO = NO;
+				"LLVM_LTO[arch=x86_64]" = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULE_VERSION = 1.90.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fno-stack-protector";
+				"OTHER_LDFLAGS[arch=x86_64]" = "-dead_strip";
+				SDKROOT = macosx;
+				STRIP_STYLE = "non-global";
+				SYMROOT = build/Products;
+			};
+			name = Debug;
+		};
+		0C4B238F14598AD20080D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"LOGNAME=\\\"${LOGNAME}\\\"",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LLVM_LTO = NO;
+				"LLVM_LTO[arch=x86_64]" = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULE_VERSION = 1.90.1;
+				OTHER_CFLAGS = "-fno-stack-protector";
+				"OTHER_LDFLAGS[arch=x86_64]" = "-dead_strip";
+				SDKROOT = macosx;
+				STRIP_STYLE = "non-global";
+				SYMROOT = build/Products;
+			};
+			name = Release;
+		};
+		0C4B239114598AD20080D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = NO;
+				CLANG_ANALYZER_DIVIDE_BY_ZERO = NO;
+				CLANG_ANALYZER_NULL_DEREFERENCE = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppleSmartBatteryManager/ACPIBatteryManager-Prefix.pch";
+				INFOPLIST_FILE = "AppleSmartBatteryManager/ACPIBatteryManager-Info.plist";
+				MODULE_NAME = org.rehabman.driver.AppleSmartBatteryManager;
+				PRODUCT_BUNDLE_IDENTIFIER = "${MODULE_NAME}";
+				PRODUCT_NAME = ACPIBatteryManager;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Debug;
+		};
+		0C4B239214598AD20080D960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppleSmartBatteryManager/ACPIBatteryManager-Prefix.pch";
+				INFOPLIST_FILE = "AppleSmartBatteryManager/ACPIBatteryManager-Info.plist";
+				MODULE_NAME = org.rehabman.driver.AppleSmartBatteryManager;
+				PRODUCT_BUNDLE_IDENTIFIER = "${MODULE_NAME}";
+				PRODUCT_NAME = ACPIBatteryManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C4B237614598AD10080D960 /* Build configuration list for PBXProject "ACPIBatteryManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C4B238E14598AD20080D960 /* Debug */,
+				0C4B238F14598AD20080D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C4B239014598AD20080D960 /* Build configuration list for PBXNativeTarget "ACPIBatteryManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C4B239114598AD20080D960 /* Debug */,
+				0C4B239214598AD20080D960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C4B237314598AD10080D960 /* Project object */;
+}

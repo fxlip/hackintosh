@@ -1,0 +1,26 @@
+# MaciASL patch to provide overrides for the configuration data in in the Info.plist
+
+# This example assumes the battery is named BAT0
+# Boolean properties specified with ">y" for true, ">n" for false
+
+into method label RMCF parent_label BAT0 remove_entry;
+into device label BAT0 insert
+begin
+Method(RMCF)\n
+{\n
+    Return(Package()\n
+    {\n
+        "UseExtendedBatteryInformationMethod", ">y",\n
+        "UseExtraBatteryInformationMethod", ">y",\n
+        "EstimateCycleCountDivisor", 6,\n
+        "UseDesignVoltageForDesignCapacity", ">y",\n
+        "UseDesignVoltageForMaxCapacity", ">y",\n
+        "UseDesignVoltageForCurrentCapacity", ">y",\n
+        "CurrentDischargeRateMax", 20000,\n
+        "CorrectCorruptCapacities", ">y",\n
+        "Correct16bitSignedCurrentRate", ">y",\n
+        "StartupDelay", 0,\n
+        "FirstPollDelay", 4000,\n
+    })\n
+}\n
+end;
