@@ -60,3 +60,7 @@ Diretórios
 ``Files`` contem todos os arquivos que precisam ser compilados para criar DSDT exclusivas e resolver problemas.
 
 ``imgs`` é só um diretório para exibir imagens nesse readme.  
+
+
+
+
