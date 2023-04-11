@@ -1,4 +1,4 @@
-# Razer Blade Stealth late 2019 com macOS 10.15.7 Catalina
+# Razer Blade Stealth com macOS 10.15.7 Catalina
 
 **Atualizações pós-instalação, para o tutorial completo visite: https://fxlip.com/building/perfect-laptop/**
 
