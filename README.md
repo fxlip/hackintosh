@@ -24,18 +24,18 @@ Hardware
 | Item | Descrição | Funcionando |
 | ---: | :--- | :--- |
 | ``CPU`` | Quad-Core 10th Gen Intel® Core™ i7-1065G7 Processor with Hyper-Threading 1.3 GHz / 3.9 GHz (Base/Turbo) | ✅ |
-| ``RAM`` | 16GB LPDDR4 3733MHz dual-channel onboard memory (Fixed)| Yes |
+| ``RAM`` | 16GB LPDDR4 3733MHz dual-channel | ✅ |
 | ``iGPU`` | Intel UHD Iris Plus | ❌ |
 | ``dGPU`` | NVIDIA® GeForce® GTX 1650 4GB GDDR5 VRAM | ❌ |
 | ``SSD`` | 1TB Samsung 970 Evo Plus PCIe M.2 | ✅ |
-| ``Monitor`` | 13.3" FHD Matte (1920 X 1080), 100% sRGB, 4.9mm slim side bezels | ✅ |
+| ``Monitor`` | 13.3" FHD Matte (1920 X 1080) 100% sRGB | ✅ |
 | ``Webcam`` | Webcam (720P) |  ✅ |
 | ``WiFi`` | Dell Dw1560 BCM94352z | ✅ |
-| ``IO`` | USB-C 3.1 Gen 2, power port 2x Type-A USB 3.1| ✅ |
-| ``Thunderbolt 3 (USB-C)`` | ✅ |
+| ``USB`` | Type-A USB 3.1| ✅ |
+| ``Thunderbolt 3`` | USB-C 3.1 Gen 2 e Alimentação | ✅ |
 | ``Som`` | Realtek ALC298 | ❌ |
 | ``Bateria`` | 53Wh | ❌ |
-| ``Teclado`` | Keyboard with Razer Chroma™ single-zone full key backlighting | ✅ |
+| ``Teclado`` | Teclado Razer Chroma™ com ajuste de iluminação | ✅ |
 | ``Touchpad`` | Precision Glass | ❌ |
 
 
@@ -60,7 +60,3 @@ Diretórios
 ``Files`` contem todos os arquivos que precisam ser compilados para criar DSDT exclusivas e resolver problemas.
 
 ``imgs`` é só um diretório para exibir imagens nesse readme.  
-
-
-
-
