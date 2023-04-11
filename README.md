@@ -1,4 +1,4 @@
-# Razer Blade Stealth late 2019 com macOS 10.15.7 Catalina
+# Razer Blade Stealth Triple Boot
 
 **Atualizações pós-instalação, para o tutorial completo visite: https://fxlip.com/building/perfect-laptop/**
 
@@ -8,7 +8,7 @@ Introdução
 
 ![Sobre esse Mac](https://github.com/fxlip/hackintosh/blob/master/imgs/about_mac.png)
 
-O objetivo desse hackintosh foi criar um ambiente de desenvolvimento completo em um triple boot junto com windows e linux e ter todas as ferramentas de desenvolvimento disponíveis para uso e testes. Agradeço aos tutoriais do [k-sym](https://github.com/k-sym/Razer_Blade_Stealth_Late_2019_GTX_Hackintosh),[StoneEvil](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) e [tylernguyen](https://github.com/tylernguyen/razer15-hackintosh) que me encorajaram a contruir esse aqui.
+O objetivo desse hackintosh foi criar um setup de desenvolvimento completo junto com windows e linux para ter todas as ferramentas de desenvolvimento disponíveis em todas as plataformas, facilitando testes e deploys de apps e designs. Agradeço aos guias do [k-sym](https://github.com/k-sym/Razer_Blade_Stealth_Late_2019_GTX_Hackintosh), [StoneEvil](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) e [tylernguyen](https://github.com/tylernguyen/razer15-hackintosh) que me encorajaram a contruir esse aqui em 2023.
 
 **Proposta**
 
