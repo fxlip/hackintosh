@@ -10,6 +10,7 @@ Introdução
 
 O objetivo desse hackintosh foi criar um setup de desenvolvimento completo junto com windows e linux para ter todas as ferramentas de desenvolvimento disponíveis em todas as plataformas, facilitando testes e deploys de apps e designs. Agradeço aos guias do [k-sym](https://github.com/k-sym/Razer_Blade_Stealth_Late_2019_GTX_Hackintosh), [StoneEvil](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) e [tylernguyen](https://github.com/tylernguyen/razer15-hackintosh) que me encorajaram a contruir esse aqui em 2023.
 
+
 **Proposta**
 
 * Utilizar o iCloud e AirDrop.
@@ -47,7 +48,7 @@ Como o ``WiFI`` e o ``NVMe`` não são compatíveis com macOS foi necessário tr
 
 
 **Acessórios**
-a
+
 | Acessório | Descrição |
 | ---: | :--- |
 | ``USB mouse`` | O touchpad não funcionará e ainda não está funcionando |
@@ -60,7 +61,3 @@ Diretórios
 ``Files`` contem todos os arquivos que precisam ser compilados para criar DSDT exclusivas e resolver problemas.
 
 ``imgs`` é só um diretório para exibir imagens nesse readme.  
-
-
-
-
