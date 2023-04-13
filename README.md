@@ -8,7 +8,7 @@ Introdução
 
 ![Sobre esse Mac](https://github.com/fxlip/hackintosh/blob/master/imgs/about_mac.png)
 ![Sobre esse Windows](https://github.com/fxlip/hackintosh/blob/master/imgs/about_windows.png)
-![Sobre esse Linux](https://github.com/fxlip/hackintosh/blob/master/imgs/about_kali.png)
+![Sobre esse Linux](https://github.com/fxlip/hackintosh/blob/master/imgs/about_linux.png)
 
 O objetivo desse hackintosh foi criar um setup de desenvolvimento completo junto com windows e linux para ter todas as ferramentas de desenvolvimento disponíveis em todas as plataformas, facilitando testes e deploys de apps e designs. Agradeço aos guias do [k-sym](https://github.com/k-sym/Razer_Blade_Stealth_Late_2019_GTX_Hackintosh), [StoneEvil](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) e [tylernguyen](https://github.com/tylernguyen/razer15-hackintosh) que me encorajaram a contruir esse aqui em 2023.
 
