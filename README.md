@@ -24,9 +24,9 @@ Hardware
 
 **Razer Blade Stealth late 2019 GTX 1650**
 
-| Item | Descrição | Mac &#124; Win &#124; Linux |
+| Item | Descrição | Funcionando |
 | ---: | :--- | :--- |
-| ``CPU`` | Quad-Core 10th Gen Intel® Core™ i7-1065G7 Processor with Hyper-Threading 1.3 GHz / 3.9 GHz (Base/Turbo) | ✅ &#124; ✅ &#124; ✅ |
+| ``CPU`` | Quad-Core 10th Gen Intel® Core™ i7-1065G7 Processor with Hyper-Threading 1.3 GHz / 3.9 GHz (Base/Turbo) | <table><thead><tr>MacOS</th><th>Windows</th>Linux</tr></thead><tbody><tr>  <td>✅</td><td>✅</td>✅</tr></tbody></table> |
 | ``RAM`` | 16GB LPDDR4 3733MHz dual-channel | ✅ &#124; ✅ &#124; ✅ |
 | ``iGPU`` | Intel UHD Iris Plus | ❌ &#124; ❌ &#124; ❌ |
 | ``dGPU`` | NVIDIA® GeForce® GTX 1650 4GB GDDR5 VRAM | ❌ &#124; ❌ &#124; ❌ |
