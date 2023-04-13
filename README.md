@@ -10,8 +10,18 @@ Introdução
 ![Sobre esse Windows](https://github.com/fxlip/hackintosh/blob/master/imgs/about_windows.png)
 ![Sobre esse Linux](https://github.com/fxlip/hackintosh/blob/master/imgs/about_linux.png)
 
-O objetivo desse hackintosh foi criar um setup de desenvolvimento completo junto com windows e linux para ter todas as ferramentas de desenvolvimento disponíveis em todas as plataformas, facilitando testes e deploys de apps e designs. Agradeço aos guias do [k-sym](https://github.com/k-sym/Razer_Blade_Stealth_Late_2019_GTX_Hackintosh), [StoneEvil](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) e [tylernguyen](https://github.com/tylernguyen/razer15-hackintosh) que me encorajaram a contruir esse aqui em 2023.
+**Estrutura**
 
+NAME        FSTYPE LABEL       SIZE
+nvme0n1                        1.0TB
+├─nvme0n1p1 vfat   EFI         200MB
+├─nvme0n1p2 apfs   Hackintosh  300GB
+├─nvme0n1p3 exfat  Arquivos     50GB
+├─nvme0n1p4 ext4   Linux       149GB
+├─nvme0n1p5 swap   SWAP        1.0GB
+└─nvme0n1p6 ntfs   Windows     500GB
+
+O objetivo desse hackintosh foi criar um setup de desenvolvimento completo junto com windows e linux para ter todas as ferramentas de desenvolvimento disponíveis em todas as plataformas, facilitando testes e deploys de apps e designs. Agradeço aos guias do [k-sym](https://github.com/k-sym/Razer_Blade_Stealth_Late_2019_GTX_Hackintosh), [StoneEvil](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) e [tylernguyen](https://github.com/tylernguyen/razer15-hackintosh) que me encorajaram a contruir esse aqui em 2023.
 
 **Propostas**
 
