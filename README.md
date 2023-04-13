@@ -39,24 +39,23 @@ Hardware
 | ``Som`` | Realtek ALC298 | ❌ &#124; ❌ &#124; ❌ |
 | ``Bateria`` | 53Wh | ❌ &#124; ❌ &#124; ❌ |
 | ``Teclado`` | Teclado Razer Chroma™ com ajuste de iluminação | ✅ &#124; ✅ &#124; ✅ |
-| ``Touchpad`` | Precision Glass | ❌ &#124; ❌ &#124; ❌ |
-
+| ``Touchpad`` | Precision Glass | ❌ &#124; ❌ &#124; ❌ | 
 <table>
 <thead>
 <tr>
 <th colspan="2">Item</th>
-<th colspan="6">Descrição</th>
-<th colspan="6">Check</th>
+<th colspan="4">Descrição</th>
+<th colspan="3">Check</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<th colspan="2">``CPU``</th>
-<th colspan="6">Quad-Core 10th Gen Intel® Core™ i7-1065G7 Processor with Hyper-Threading 1.3 GHz / 3.9 GHz (Base/Turbo)</th>
+<th colspan="2">CPU</th>
+<th colspan="4">Quad-Core 10th Gen Intel® Core™ i7-1065G7 Processor with Hyper-Threading 1.3 GHz / 3.9 GHz (Base/Turbo)</th>
 </tr>
-<th colspan="2">MacOS: ✅</th>
-<th colspan="2">Windows: ✅</th>
-<th colspan="2">Linux: ✅</th>
+<th colspan="1">MacOS: ✅</th>
+<th colspan="1">Windows: ✅</th>
+<th colspan="1">Linux: ✅</th>
 </tbody>
 </table>
 
