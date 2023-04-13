@@ -44,46 +44,20 @@ Hardware
 <table>
 <thead>
 <tr>
-<th colspan="4">Main Header Cell</th>
-</tr>
-<tr>
-<th colspan="2">Sub Header Cell</th>
-<th colspan="2">Sub Header Cell</th>
-</tr>
-<tr>
-<th>Name</th>
-<th>Name</th>
-<th>Name</th>
-<th>Name</th>
+<th colspan="2">Item</th>
+<th colspan="6">Descrição</th>
+<th colspan="6">Check</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Cell</td>
-<td>Cell</td>
-<td>Cell</td>
-<td>Cell</td>
+<th colspan="2">``CPU``</th>
+<th colspan="6">Quad-Core 10th Gen Intel® Core™ i7-1065G7 Processor with Hyper-Threading 1.3 GHz / 3.9 GHz (Base/Turbo)</th>
 </tr>
-<tr>
-<td>Cell</td>
-<td>Cell</td>
-<td>Cell</td>
-<td>Cell</td>
-</tr>
-<tr>
-<td>Cell</td>
-<td>Cell</td>
-<td>Cell</td>
-<td>Cell</td>
-</tr>
-<tr>
-<td>Cell</td>
-<td>Cell</td>
-<td>Cell</td>
-<td>Cell</td>
-</tr>
+<th colspan="2">MacOS: ✅</th>
+<th colspan="2">Windows: ✅</th>
+<th colspan="2">Linux: ✅</th>
 </tbody>
-<caption id="caption"><em>Caption</em></caption>
 </table>
 
 Hardware Upgrades and Tools
