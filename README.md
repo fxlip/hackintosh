@@ -26,36 +26,20 @@ Hardware
 
 | Item | Descrição | Funcionando |
 | ---: | :--- | :--- |
-| ``CPU`` | Quad-Core 10th Gen Intel® Core™ i7-1065G7 Processor with Hyper-Threading 1.3 GHz / 3.9 GHz (Base/Turbo) | <table style="border:1px solid black;"><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
-| ``RAM`` | 16GB LPDDR4 3733MHz dual-channel | ✅ &#124; ✅ &#124; ✅ |
-| ``iGPU`` | Intel UHD Iris Plus | ❌ &#124; ❌ &#124; ❌ |
-| ``dGPU`` | NVIDIA® GeForce® GTX 1650 4GB GDDR5 VRAM | ❌ &#124; ❌ &#124; ❌ |
-| ``SSD`` | 1TB Samsung 970 Evo Plus PCIe M.2 | ✅ &#124; ✅ &#124; ✅ |
-| ``Monitor`` | 13.3" FHD Matte (1920 X 1080) 100% sRGB | ✅ &#124; ✅ &#124; ✅ |
-| ``Webcam`` | Webcam (720P) | ✅ &#124; ✅ &#124; ✅ |
-| ``WiFi`` | Dell Dw1560 BCM94352z | ✅ &#124; ✅ &#124; ✅ |
-| ``USB`` | Type-A USB 3.1 | ✅ &#124; ✅ &#124; ✅ |
-| ``Thunderbolt 3`` | USB-C 3.1 Gen 2 e Alimentação | ✅ &#124; ✅ &#124; ✅ |
-| ``Som`` | Realtek ALC298 | ❌ &#124; ❌ &#124; ❌ |
-| ``Bateria`` | 53Wh | ❌ &#124; ❌ &#124; ❌ |
-| ``Teclado`` | Teclado Razer Chroma™ com ajuste de iluminação | ✅ &#124; ✅ &#124; ✅ |
-| ``Touchpad`` | Precision Glass | ❌ &#124; ❌ &#124; ❌ | 
-<table>
-<thead>
-<tr>
-<th colspan="2">Item</th>
-<th colspan="4">Descrição</th>
-<th colspan="3">Check</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th colspan="2">CPU</th>
-<th colspan="4">Quad-Core 10th Gen Intel® Core™ i7-1065G7 Processor with Hyper-Threading 1.3 GHz / 3.9 GHz (Base/Turbo)</th>
-</tr>
-<th colspan="3">MacOS: ✅ | Windows: ✅ | Linux: ✅</th>
-</tbody>
-</table>
+| ``CPU`` | Quad-Core 10th Gen Intel® Core™ i7-1065G7 Processor with Hyper-Threading 1.3 GHz / 3.9 GHz (Base/Turbo) | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
+| ``RAM`` | 16GB LPDDR4 3733MHz dual-channel | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
+| ``iGPU`` | Intel UHD Iris Plus | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>❌</td><td>✅</td><td>✅</td></tr></tbody></table> |
+| ``dGPU`` | NVIDIA® GeForce® GTX 1650 4GB GDDR5 VRAM | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>❌</td><td>✅</td><td>✅</td></tr></tbody></table> |
+| ``SSD`` | 1TB Samsung 970 Evo Plus PCIe M.2 | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
+| ``Monitor`` | 13.3" FHD Matte (1920 X 1080) 100% sRGB | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
+| ``Webcam`` | Webcam (720P) | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
+| ``WiFi`` | Dell Dw1560 BCM94352z | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>❌</td></tr></tbody></table> |
+| ``USB`` | Type-A USB 3.1 | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
+| ``Thunderbolt 3`` | USB-C 3.1 Gen 2 e Alimentação | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
+| ``Som`` | Realtek ALC298 | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>❌</td><td>✅</td><td>❌</td></tr></tbody></table> |
+| ``Bateria`` | 53Wh | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>❌</td><td>✅</td><td>✅</td></tr></tbody></table> |
+| ``Teclado`` | Teclado Razer Chroma™ com ajuste de iluminação | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
+| ``Touchpad`` | Precision Glass | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>❌</td><td>✅</td><td>✅</td></tr></tbody></table> |
 
 Hardware Upgrades and Tools
 ---
