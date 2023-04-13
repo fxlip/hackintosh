@@ -41,7 +41,14 @@ Hardware
 | ``Teclado`` | Teclado Razer Chroma™ com ajuste de iluminação | ✅ &#124; ✅ &#124; ✅ |
 | ``Touchpad`` | Precision Glass | ❌ &#124; ❌ &#124; ❌ |
 
-
+| Main Header Cell||||
+| Sub Header Cell || Sub Header Cell ||
+| Name | Name | Name | Name |
+| --- | --- | --- | --- |
+| Cell | Cell | Cell | Cell |
+| Cell | Cell | Cell | Cell |
+| Cell | Cell | Cell | Cell |
+| Cell | Cell | Cell | Cell |
 
 Hardware Upgrades and Tools
 ---
