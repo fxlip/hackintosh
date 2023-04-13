@@ -26,7 +26,7 @@ Hardware
 
 | Item | Descrição | Funcionando |
 | ---: | :--- | :--- |
-| ``CPU`` | Quad-Core 10th Gen Intel® Core™ i7-1065G7 Processor with Hyper-Threading 1.3 GHz / 3.9 GHz (Base/Turbo) | <table style="border:none"><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
+| ``CPU`` | Quad-Core 10th Gen Intel® Core™ i7-1065G7 Processor with Hyper-Threading 1.3 GHz / 3.9 GHz (Base/Turbo) | <table border="0"><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
 | ``RAM`` | 16GB LPDDR4 3733MHz dual-channel | ✅ &#124; ✅ &#124; ✅ |
 | ``iGPU`` | Intel UHD Iris Plus | ❌ &#124; ❌ &#124; ❌ |
 | ``dGPU`` | NVIDIA® GeForce® GTX 1650 4GB GDDR5 VRAM | ❌ &#124; ❌ &#124; ❌ |
