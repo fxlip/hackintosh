@@ -53,9 +53,7 @@ Hardware
 <th colspan="2">CPU</th>
 <th colspan="4">Quad-Core 10th Gen Intel® Core™ i7-1065G7 Processor with Hyper-Threading 1.3 GHz / 3.9 GHz (Base/Turbo)</th>
 </tr>
-<th colspan="3">MacOS: ✅</th>
-<th colspan="3">Windows: ✅</th>
-<th colspan="3">Linux: ✅</th>
+<th colspan="3">MacOS: ✅ | Windows: ✅ | Linux: ✅</th>
 </tbody>
 </table>
 
