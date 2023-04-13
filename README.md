@@ -13,11 +13,17 @@ Introdução
 O objetivo desse hackintosh foi criar um setup de desenvolvimento completo junto com windows e linux para ter todas as ferramentas de desenvolvimento disponíveis em todas as plataformas, facilitando testes e deploys de apps e designs. Agradeço aos guias do [k-sym](https://github.com/k-sym/Razer_Blade_Stealth_Late_2019_GTX_Hackintosh), [StoneEvil](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) e [tylernguyen](https://github.com/tylernguyen/razer15-hackintosh) que me encorajaram a contruir esse aqui em 2023.
 
 
-**Proposta**
+**Propostas**
 
-* Utilizar o iCloud e AirDrop.
-* Desenvolver para iOS/MacOS.
-* Usar as ferramentas da Adobe integradas ao sistema.
+* MacOS:
+  * Utilizar iCloud/AirDrop;
+  * Desenvolver para iOS;
+  * Usar ferramentas da Adobe integradas ao sistema;
+* Linux:
+  * Desenvolver em outras linguagens
+  * Estudar segurança
+* Windows: 
+  * Jogar na Steam
 
 Hardware
 ---
@@ -35,13 +41,13 @@ Hardware
 | ``Webcam`` | Webcam (720P) | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
 | ``WiFi`` | Dell Dw1560 BCM94352z | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>❌</td></tr></tbody></table> |
 | ``USB`` | Type-A USB 3.1 | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
-| ``Thunderbolt 3`` | USB-C 3.1 Gen 2 e Alimentação | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
+| ``Thunderbolt3`` | USB-C 3.1 Gen 2 e Alimentação | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
 | ``Som`` | Realtek ALC298 | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>❌</td><td>✅</td><td>❌</td></tr></tbody></table> |
 | ``Bateria`` | 53Wh | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>❌</td><td>✅</td><td>✅</td></tr></tbody></table> |
 | ``Teclado`` | Teclado Razer Chroma™ com ajuste de iluminação | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
 | ``Touchpad`` | Precision Glass | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>❌</td><td>✅</td><td>✅</td></tr></tbody></table> |
 
-Hardware Upgrades and Tools
+Upgrades
 ---
 
 Como o ``WiFI`` e o ``NVMe`` não são compatíveis com macOS foi necessário trocar. Troquei a placa de WiFi/Bluetooth por uma Broadcom (DW-1560) e o SSD original foi substituído por um Samsung 970 Evo Plus 1TB NVME M.2.
