@@ -47,7 +47,7 @@ Como o ``WiFI`` e o ``NVMe`` não são compatíveis com macOS foi necessário tr
 
 
 **Acessórios**
-
+a
 | Acessório | Descrição |
 | ---: | :--- |
 | ``USB mouse`` | O touchpad não funcionará e ainda não está funcionando |
