@@ -41,14 +41,50 @@ Hardware
 | ``Teclado`` | Teclado Razer Chroma™ com ajuste de iluminação | ✅ &#124; ✅ &#124; ✅ |
 | ``Touchpad`` | Precision Glass | ❌ &#124; ❌ &#124; ❌ |
 
-| Main Header Cell||||
-| Sub Header Cell || Sub Header Cell ||
-| Name | Name | Name | Name |
-| --- | --- | --- | --- |
-| Cell | Cell | Cell | Cell |
-| Cell | Cell | Cell | Cell |
-| Cell | Cell | Cell | Cell |
-| Cell | Cell | Cell | Cell |
+<table>
+<thead>
+<tr>
+<th colspan="4">Main Header Cell</th>
+</tr>
+<tr>
+<th colspan="2">Sub Header Cell</th>
+<th colspan="2">Sub Header Cell</th>
+</tr>
+<tr>
+<th>Name</th>
+<th>Name</th>
+<th>Name</th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+</tr>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+</tr>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+</tr>
+<tr>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+</tr>
+</tbody>
+<caption id="caption"><em>Caption</em></caption>
+</table>
 
 Hardware Upgrades and Tools
 ---
