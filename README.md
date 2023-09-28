@@ -1,6 +1,6 @@
 # Razer Blade Stealth Triple Boot
 
-**Atualizações pós-instalação, para o tutorial completo visite: https://fxlip.com/building/perfect-laptop/**
+> Atualizações pós-instalação.
 
 
 Introdução
