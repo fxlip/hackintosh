@@ -50,6 +50,7 @@ Hardware
 | ``Monitor`` | 13.3" FHD Matte (1920 X 1080) 100% sRGB | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
 | ``Webcam`` | Webcam (720P) | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
 | ``WiFi`` | Dell Dw1560 BCM94352z | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>❌</td></tr></tbody></table> |
+| ``WiFi`` | Intel AX 201 | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>❌</td><td>✅</td><td>✅</td></tr></tbody></table> |
 | ``USB`` | Type-A USB 3.1 | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
 | ``Thunderbolt3`` | USB-C 3.1 Gen 2 e Alimentação | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table> |
 | ``Som`` | Realtek ALC298 | <table><thead><tr><th>MacOS</th><th>Windows</th><th>Linux</th></tr></thead><tbody><tr><td>❌</td><td>✅</td><td>❌</td></tr></tbody></table> |
@@ -60,10 +61,14 @@ Hardware
 Upgrades
 ---
 
-Como o ``WiFI`` e o ``NVMe`` não são compatíveis com macOS foi necessário trocar. Troquei a placa de WiFi/Bluetooth por uma Broadcom (DW-1560) e o SSD original foi substituído por um Samsung 970 Evo Plus 1TB NVME M.2.
+O SSD original ``Realtek RTL9210B-CG 500GB`` foi substituído por um ``Samsung 970 Evo Plus 1000GB``.
 
+Já a placa ``Intel AX 201`` por não ser compatível com macOS foi substituída pela ``Dell Broadcom DW-1560``.
 
-**Acessórios**
+**Update:** Embora a placa ``Broadcom DW-1560`` tenha funcionado no macOS e no Windows, no Linux não existe nenhum driver compatível.
+
+Acessórios
+---
 
 | Acessório | Descrição |
 | ---: | :--- |
